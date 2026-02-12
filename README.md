@@ -45,7 +45,6 @@ Transformación del problema de series temporales en un problema de regresión s
 
 ## Estructura del Repositorio
 
-```text
 ├── data/
 │   └── demanda.csv                  # Dataset histórico transaccional
 ├── Pipeline_Prediccion_Demanda.ipynb # Notebook Maestro (Todo el análisis)
