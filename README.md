@@ -51,3 +51,51 @@ Transformación del problema de series temporales en un problema de regresión s
 ├── Pipeline_Prediccion_Demanda.ipynb # Notebook Maestro (Todo el análisis)
 ├── requirements.txt                 # Dependencias y versiones exactas
 └── README.md                        # Documentación técnica
+
+## Instalación y Ejecución
+
+Sigue estos pasos para reproducir el análisis en tu entorno local.
+
+### Prerrequisitos
+* **Python 3.8** o superior.
+* **Jupyter Lab** o **VS Code**.
+
+### Pasos de Instalación
+
+1.  **Clonar el repositorio:**
+    ```bash
+    git clone [https://github.com/danielfernandezf/prediccion-demanda-retail.git](https://github.com/danielfernandezf/prediccion-demanda-retail.git)
+    cd prediccion-demanda-retail
+    ```
+
+2.  **Configurar el Entorno Virtual (Recomendado):**
+    ```bash
+    # Windows
+    python -m venv venv
+    .\venv\Scripts\activate
+
+    # Mac/Linux
+    python3 -m venv venv
+    source venv/bin/activate
+    ```
+
+3.  **Instalar Dependencias:**
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+4.  **Ejecutar el Pipeline:**
+    Abre el proyecto en Jupyter y ejecuta todas las celdas:
+    ```bash
+    jupyter lab Pipeline_Prediccion_Demanda.ipynb
+    ```
+
+## Resultados y Conclusiones
+
+El rendimiento se evaluó comparando las métricas de error (**RMSE** y **MAE**) entre los tres enfoques: Baseline, Estadístico y Machine Learning.
+
+> **Conclusión:** El modelo de **Gradient Boosting** demostró ser superior tanto al Baseline (Media Móvil) como al enfoque estadístico tradicional (ARIMA), logrando una mejor generalización ante picos de demanda y estacionalidades complejas.
+
+---
+**Autor:** Daniel Fernández
+*Ingeniero de Software & Data Scientist*
