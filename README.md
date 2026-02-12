@@ -43,14 +43,6 @@ Transformación del problema de series temporales en un problema de regresión s
 * **Manipulación de Datos:** `pandas`, `numpy`.
 * **Visualización:** `matplotlib`, `seaborn`, `plotly`.
 
-## Estructura del Repositorio
-
-├── data/
-│   └── demanda.csv                  # Dataset histórico transaccional
-├── Pipeline_Prediccion_Demanda.ipynb # Notebook Maestro (Todo el análisis)
-├── requirements.txt                 # Dependencias y versiones exactas
-└── README.md                        # Documentación técnica
-
 ## Instalación y Ejecución
 
 Sigue estos pasos para reproducir el análisis en tu entorno local.
